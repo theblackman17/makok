@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=M5+mnOxU1xdb9d6rY6HJTRa1yiRGD6YsE46ocQoQ5bEuoyPuno1MW0ri0m0T0Gc/oM+v7dEHZuyd30h9mvRpQdxH02Eakd+vOBu+R3grrRXteJEfhp6tOk9x696831J3o+0fbxlXDlFFJT0tk3u0fD7u2+qWKd95KQ1EEtEl3CY=-->
+<!--_SIG=U3sWEWSLzm2e9eKgyA6sbtZgeRUrYakFSuDS4m8Ed7FKBIc4wOVVXk+0KddaiS/CWnR9b2x3IG/r1KeylEBoF1/i4vPi7Is7UN9VCvHLuBDsFKhlL7jpY3Y90aJzkG3ALoXV9KGB76AWySE4Lm3IRXsxNjw4L9ISk45G6xjuegY=-->
+<Setup Id="Lync.pt-br" Type="AddOn" Keyword="LyncMUI" Culture="pt-br">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="LyncHelpFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no" Hidden="yes">
+			<OptionDependency Lead="LyncCoreFiles"/>
+		</Option>
+	</Option>
+	<PackageRef Path="LyncMUI.xml"/>
+	<LocalCache DownloadCode="{90150000-012B-0416-0000-0000000FF1CE}" SkuComponentDirectory="Lync.pt-br">
+		<File Id="LyncMUI.xml" MD5="5FE2E3977A5B8AC979FB5EAEA6B70A2C" Size="0" RelativeCachePath="LyncMUI.xml" RelativeSourcePath="LyncMUI.xml"/>
+		<File Id="LyncMUI.msi" MD5="C64B4F132A737AC0B7FADC16DED1DAFE" Size="1851392" RelativeCachePath="LyncMUI.msi" RelativeSourcePath="LyncMUI.msi"/>
+		<File Id="LyncMUI.cab" MD5="6CA050D8BA35EAF26398B26CBD6FB8AA" Size="2238912" RelativeCachePath="LyncMUI.cab" RelativeSourcePath="LyncMUI.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=HrMWyVkFpVJca3KlHDq6LozQMygU+NM38xL7TrDq5r+ZXJBpXW3ICe47Cm1R038gzCZ8LBc80ol0qmSf398JMBtxrvIPmPZaG1wVaWNxKZUcKroo93ey/FP3ZSmPWYSys09exq+YQbeI5CQOPYHPDHFBz6Fry3rXY57zzSoAuZo=-->
+<!--_SIG=ovGgQixJ+bM5vKfu8vYIfXjooLKuZiYUV70QkP/iziMjRSNTfJlXmZjC04y0tGpLg6SV+83rRLPJ5hkfgwt69NeOwQ0iu9biSnc5gF4E+KJa7ZCkUP88xy0ZU0dagPDc5HrmPaeVpfE8IKaAOyXoi5TfAQzsOOkF8M3/CGNMBD4=-->
+<Package Id="InfoPathMUI.pt-br" Type="MSI" Path="InfoPathMUI.MSI" Version="1.0" ProductCode="{90150000-0044-0416-0000-0000000FF1CE}" MSIVersion="15.0.4420.1017" ProductLanguage="1046" Platform="x86">
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="XDOCSHelpFilesIntl_1046" Cost="6085397">
+		<OptionRef Id="XDOCSHelpFiles"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScopedIntl_1046" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="XDOCSFilesIntl_1046" Cost="4408256">
+		<OptionRef Id="XDOCSFiles"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+</Package>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=l6yAOvRHv9woRczS/rR0FX9U+bd7Qj5cPniDI7lD9/3BEdAUCjmbWg21LsWA8YKRkiHsq4GCxZaMVGem0WA52qLUHURbGZgQd2pUc0ln24HDJ6SRENJgspb4khlw1yKE2KOL1w7dAgzQBGlqo3yj3xTvcgn0yv7tYbb5XAtZmDk=-->
+<!--_SIG=H5sJmCwHXzb8bcuG0+EnyVrVUs1xhxuCQQ/cY9q1P/VHDd0U9xIGXeYSFThfUMhL8xaQHvlFLDhIqs5EVzt6KS+o+68Jgut2PQtVDUdgtsrz3RSdkQQT6cne3icXfSd3/x6ZgxU757pBRrqqHcweIPDVesSwKS7l7bMajzsD+pk=-->
+<Package Id="WordMUI.pt-br" Type="MSI" Path="WordMUI.MSI" Version="1.0" ProductCode="{90150000-001B-0416-0000-0000000FF1CE}" MSIVersion="15.0.4420.1017" ProductLanguage="1046" Platform="x86">
+	<Feature Id="SetupControllerFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScopedIntl_1046" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WordBibliographyFilesIntl_1046" Cost="111828">
+		<OptionRef Id="WordBibliographyFiles"/>
+	</Feature>
+	<Feature Id="WordQuickFormatsFilesIntl_1046" Cost="204085">
+		<OptionRef Id="WordQuickFormatsFiles"/>
+	</Feature>
+	<Feature Id="WhiteRabbitHiddenIntl_1046" Cost="82432">
+		<OptionRef Id="WhiteRabbitHidden"/>
+	</Feature>
+	<Feature Id="ExcelConverter12Intl_1046" Cost="3810496">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WordDocumentPartsFilesIntl_1046" Cost="3617732">
+		<OptionRef Id="WORDFiles"/>
+	</Feature>
+	<Feature Id="WORDNonBootFilesIntl_1046" Cost="45568">
+		<OptionRef Id="WORDFiles"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WordPdfiFilesIntl_1046" Cost="14464">
+		<OptionRef Id="WordPdfi"/>
+	</Feature>
+	<Feature Id="WORDDocumentTemplatesIntl_1046" Cost="8178047">
+		<OptionRef Id="WORDDocumentTemplates"/>
+	</Feature>
+	<Feature Id="WORDHelpFilesIntl_1046" Cost="538549">
+		<OptionRef Id="WORDHelpFiles"/>
+	</Feature>
+	<Feature Id="WORDSharedFilesIntl_1046" Cost="1677656">
+		<OptionRef Id="WORDSharedFiles"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+</Package>
